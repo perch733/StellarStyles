@@ -1,0 +1,21 @@
+{
+  "name": "stellarstyles.css",
+  "version": "1.0.0",
+  "description": "alternative to normalize.css",
+  "main": "StellarStyles.css",
+  "style": "StellarStyles.css",
+  "author": "Percy Chuzon <contacto@percychuzon.com>",
+  "license": "ISC",
+  "keywords": [
+    "normalize.css",
+    "CSS resets",
+    "standardize.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perch33/StellarStyles",
+    "bugs": {
+      "url": "https://github.com/perch33/StellarStyles/issues"
+    }
+  }
+}
