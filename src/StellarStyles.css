@@ -1,7 +1,6 @@
 /* Establece que el tamaño del elemento incluye padding y border */
 * {
   box-sizing: border-box;
-  min-width: 0; /* Asegura que el ancho mínimo sea 0 */
 }
 
 /**
@@ -18,7 +17,6 @@ html {
 body {
   margin: 0;
   position: relative;
-  min-width: 100dvh; /* Asegura que el cuerpo tenga al menos el tamaño de la altura de la ventana */
 }
 
 /* Elimina referencia a IE */
