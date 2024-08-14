@@ -1,24 +1,29 @@
 {
   "name": "stellarstyles.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Alternative to normalize.css",
-  "main": "StellarStyles.css",
+  "main": "dist/Stellarstyles.min.css",
   "author": "Percy Chuzon <contacto@percychuzon.com>",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss src/StellarStyles.css -o dist/Stellarstyles.min.css --not-map"
   },
   "keywords": [
     "normalize.css",
     "CSS resets",
     "standardize.css"
   ],
-  "homepage": "https://github.com/perch33/StellarStyles.git",
+  "homepage": "https://github.com/perch33/StellarStyles",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perch33/StellarStyles.git",
-    "bugs": {
-      "url": "https://github.com/perch33/StellarStyles/issues"
-    }
+    "url": "git+https://github.com/perch33/StellarStyles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/perch33/StellarStyles/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0"
   }
 }
