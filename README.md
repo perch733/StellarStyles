@@ -31,7 +31,7 @@ Para empezar a usar **StellarStyles.css** en tu proyecto, sigue estos pasos:
    En tu archivo principal CSS, importa **StellarStyles**:
 
    ```css
-   @import "dist/css/Stellarstyles.min.css";
+   import "stellarstyles.css";
    ```
 
 ## Características

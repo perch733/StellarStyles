@@ -1,6 +1,6 @@
 {
   "name": "stellarstyles.css",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Alternative to normalize.css",
   "main": "dist/Stellarstyles.min.css",
   "author": "Percy Chuzon <contacto@percychuzon.com>",
