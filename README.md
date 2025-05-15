@@ -42,6 +42,8 @@ Para empezar a usar **StellarStyles.css** en tu proyecto, sigue estos pasos:
 
 A partir de 2025, los navegadores están eliminando los estilos por defecto que reducían visualmente los tamaños de los encabezados `<h1>` anidados dentro de elementos como `<section>`, `<article>`, `<nav>` y `<aside>`.
 
+Para más detalles sobre los cambios visita la [El siguiente Blog en Mozilla](https://developer.mozilla.org/en-US/blog/h1-element-styles/).
+
 Esto puede provocar advertencias en herramientas como Lighthouse si no se define un tamaño de fuente explícito para cada `<h1>`.
 
 **StellarStyles.css** ya aplica un estilo uniforme explícito para todos los `<h1>`, cumpliendo con las nuevas recomendaciones:

@@ -24,20 +24,12 @@ main {
   display: block;
 }
 
-
 /* Estilo explícito para <h1> para evitar advertencias de Lighthouse.
    Usamos :where() para mantener baja especificidad. */
 :where(h1) {
   font-size: 2em;
   margin-block: 0.67em;
 }
-
-/* Corrige el tamaño de fuente y el margen en los elementos `h1` dentro de `section` y `article` en Chrome, Firefox y Safari */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /* Asegura que el texto en títulos y párrafos se envuelva correctamente */
 h1,
 h2,
@@ -48,6 +40,7 @@ h4 {
 
 p {
   text-wrap: pretty;
+  margin-block: 1lh;
 }
 
 /* Agrupación de contenido
@@ -294,4 +287,15 @@ template {
 /* Elimina soporte específico para IE */
 [hidden] {
   display: none;
+}
+
+/*  previene desborde de contenido*/
+svg,
+video,
+canvas,
+audio,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
