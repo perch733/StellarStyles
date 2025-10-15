@@ -1,0 +1,6 @@
+/* selección de Amarillo suave */
+
+::selection {
+  background-color: #ffeb3b;
+  color: #000;
+}

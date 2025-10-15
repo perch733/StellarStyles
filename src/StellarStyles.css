@@ -122,32 +122,6 @@ sup {
   top: -0.5em; /* Ajusta la posición vertical del superíndice */
 }
 
-/* Establece el color de fondo amarillo y el texto negro cuando se selecciona */
-label::selection,
-em::selection,
-img::selection,
-a::selection,
-p::selection,
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection,
-span::selection,
-strong::selection,
-br::selection,
-th::selection,
-td::selection,
-tr::selection,
-li::selection,
-cite::selection,
-time::selection,
-blockquote::selection {
-  background-color: #ffff00;
-  color: #000000;
-}
-
 /* Contenido embebido
    ========================================================================== */
 
@@ -172,6 +146,11 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+}
+
+/* Ajusta el tamaño del textarea al contenido, usando la propiedad moderna field-sizing */
+textarea {
+  field-sizing: content;
 }
 
 /* Remueve soporte específico para IE/Edge */
