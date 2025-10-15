@@ -1,6 +1,6 @@
 {
   "name": "stellarstyles.css",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Alternative to normalize.css",
   "main": "dist/stellarstyles.min.css",
   "exports": {
@@ -44,7 +44,7 @@
     "ui-framework",
     "cross-browser"
   ],
-  "homepage": "https://stellarstyles-css.percychuzon.com/",
+  "homepage": "https://stellarstyles.percychuzon.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/perch733/StellarStyles.git"
