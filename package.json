@@ -1,6 +1,6 @@
 {
   "name": "stellarstyles.css",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Alternative to normalize.css",
   "main": "dist/stellarstyles.min.css",
   "exports": {
@@ -53,9 +53,9 @@
     "url": "https://github.com/perch733/StellarStyles/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "cssnano": "^7.0.7",
-    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.23",
+    "cssnano": "^7.1.2",
+    "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1"
   }
 }

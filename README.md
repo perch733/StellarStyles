@@ -47,9 +47,9 @@ Para empezar a usar **StellarStyles.css** en tu proyecto, sigue estos pasos: / T
 
 ### 🔔 Actualización importante sobre los estilos por defecto de `<h1>` / Important update about default `<h1>` styles
 
-A partir de 2025, los navegadores están eliminando los estilos por defecto que reducían visualmente los tamaños de los encabezados `<h1>` anidados dentro de elementos como `<section>`, `<article>`, `<nav>` y `<aside>` / Starting in 2025, browsers are removing the default styles that visually reduced the size of `<h1>` headings nested inside elements like `<section>`, `<article>`, `<nav>` y `<aside>`.
+A partir de 2025, los navegadores están eliminando los estilos por defecto que reducían visualmente los tamaños de los encabezados `<h1>` anidados dentro de elementos como `<section>`, `<article>`, `<nav>` y `<aside>` / Starting in 2025, browsers are removing the default styles that visually reduced the size of `<h1>` headings nested inside elements like `<section>`, `<article>`, `<nav>` and `<aside>`.
 
-Para más detalles sobre los cambios visita la [El siguiente Blog en Mozilla](https://developer.mozilla.org/en-US/blog/h1-element-styles/). / For more details, visit the [official Mozilla blog](https://developer.mozilla.org/en-US/blog/h1-element-styles/).
+Para más detalles sobre los cambios visita [el siguiente Blog en Mozilla](https://developer.mozilla.org/en-US/blog/h1-element-styles/). / For more details, visit the [official Mozilla blog](https://developer.mozilla.org/en-US/blog/h1-element-styles/).
 
 Esto puede provocar advertencias en herramientas como Lighthouse si no se define un tamaño de fuente explícito para cada `<h1>` / This change may trigger warnings in tools like Lighthouse if you don’t define an explicit font size for each `<h1>`.
 
