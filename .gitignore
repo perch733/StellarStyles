@@ -33,3 +33,7 @@ Thumbs.db
 
 # Archivos específicos de Mac
 *.DS_Store
+
+
+#trae
+.trae
