@@ -1,13 +1,16 @@
 {
   "name": "stellarstyles.css",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Alternative to normalize.css",
   "main": "dist/stellarstyles.min.css",
+  "types": "./dist/stellarstyles.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/stellarstyles.d.ts",
       "default": "./dist/stellarstyles.min.css"
     },
     "./selection": {
+      "types": "./dist/selection.d.ts",
       "default": "./dist/selection.min.css"
     }
   },
@@ -19,9 +22,10 @@
   "author": "Percy Chuzon <contacto@percychuzon.com>",
   "license": "MIT",
   "scripts": {
-    "build": "postcss src/stellarStyles.css -o dist/stellarstyles.min.css --no-map",
+    "build:css": "postcss src/stellarStyles.css -o dist/stellarstyles.min.css --no-map",
     "build:selection": "postcss src/selection.css -o dist/selection.min.css --no-map",
-    "build:all": "npm run build && npm run build:selection"
+    "build:types": "shx cp src/*.d.ts dist/",
+    "build": "npm run build:css && npm run build:selection && npm run build:types"
   },
   "keywords": [
     "normalize.css",
@@ -56,6 +60,9 @@
     "autoprefixer": "^10.4.23",
     "cssnano": "^7.1.2",
     "postcss": "^8.5.6",
-    "postcss-cli": "^11.0.1"
-  }
+    "postcss-cli": "^11.0.1",
+    "shx": "^0.4.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {}
 }
